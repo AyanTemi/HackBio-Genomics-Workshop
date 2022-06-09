@@ -28,11 +28,17 @@ awk '{print $2": "$1}': the awk function was used to print the bases and their r
 3. bwa(Burrow wheeler alignment): for mapping DNA sequence against a large reference genome such as human genome.
 4. samtools: is used manipulate alignments in the SAM (Sequence Alignment/Map), BAM, and CRAM formats. It converts between the formats, does sorting, merging and indexing.
 I installed all the softwares using:<br />
-#### sudo apt-get install **software**
+#### sudo apt-get -y install **software**
 I also downloaded the raw dataset from https://github.com/josoga2/yt-dataset/tree/main/dataset<br />
 Check the script (HB_Week2_task.sh) to see the implementation of the softwares on each of the files.
 
 ### NOTE
+To execute the script (.sh) in your terminal you can use the bash or ./sh command
+**bash stage_zero_task.sh<br />
+or<br /> 
+chmod +x stage_zero_task.sh<br />
+./stage_zero_task.sh*
+
 The result of the software implementation can be found in the **output folder**<br />
 To view the *fastqc html* files, you have to open them in your browser.
 ### *Thanks for reading*
