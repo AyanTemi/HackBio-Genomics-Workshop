@@ -1,14 +1,14 @@
 
 #!/bin/bash
 # Write a simple Bash program where your first name and last name are assigned to different variables,  and the script prints out your full name.
-x="ankita"
-y="murmu"
+x="ayano"
+y="temitope"
 echo "${x} ${y}"
 
 # Write a version where the strings are printed on the same line and a version where the strings are printed on different lines
 
-x="Aswani"
-y="Renuka"
+x="Ayano"
+y="Temitope"
 printf "${x}\n ${y}\n"
 
 # Bash story one
