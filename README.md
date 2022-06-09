@@ -33,11 +33,11 @@ I also downloaded the raw dataset from https://github.com/josoga2/yt-dataset/tre
 Check the script (HB_Week2_task.sh) to see the implementation of the softwares on each of the files.
 
 ### NOTE
-To execute the script (.sh) in your terminal you can use the bash or ./sh command
+To execute the script (.sh) in your terminal you can use the bash or ./sh command<br />
 **bash stage_zero_task.sh<br />
 or<br /> 
 chmod +x stage_zero_task.sh<br />
-./stage_zero_task.sh*
+./stage_zero_task.sh**
 
 The result of the software implementation can be found in the **output folder**<br />
 To view the *fastqc html* files, you have to open them in your browser.
