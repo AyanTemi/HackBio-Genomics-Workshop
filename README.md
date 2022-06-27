@@ -18,8 +18,8 @@ The -c flag is used for counting the number of matches for a pattern.<br />
 The ">": Using the FASTA format definition,the number of sequences in a file equal to the number of description lines. Therefore, the number of sequences can be counted By counting > in the file. I added the ^ so as to cater for cases when the deflines have > more than once.
 
 The second task was to write a one-line command in Bash to get the total A, T, G & C counts for all the sequences in the file above
-
 <br /> 
+
 ```` 
 grep -Eo 'A|T|G|C' DNA.fa | sort | uniq -c | awk '{print $2": "$1}'
 ````
