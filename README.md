@@ -8,7 +8,7 @@ Myself and my team mates completed two story inside two different notebooks prov
 ### Week 2 task (HB_Week2_task.sh) was more challenging, as I wanted to give my best.
 1. The first task was to use count the number of sequence in a DNA file (DNA.fa)
 2. To accomplish this, i made use of grep(global regular expression print). Grep make use of a pattern matching process to check if a file or set of files contains a string of character.
-#### grep -c "^>" DNA.fa
+````grep -c "^>" DNA.fa````
 The -c flag is used for counting the number of matches for a pattern.<br /> 
 The ">": Using the FASTA format definition,the number of sequences in a file equal to the number of description lines. Therefore, the number of sequences can be counted By counting > in the file. I added the ^ so as to cater for cases when the deflines have > more than once.
 
